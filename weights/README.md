@@ -1,0 +1,1 @@
+[yolov2.weights](https://pjreddie.com/media/files/yolov2.weights)
