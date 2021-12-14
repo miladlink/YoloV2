@@ -62,6 +62,8 @@ you can see some examples in `yolov2_examples.ipynb`
 
 ![dog](https://user-images.githubusercontent.com/81680367/145892095-2e804947-7fd7-436b-b907-f08f14e3b6e6.jpg)
 
+![person](https://user-images.githubusercontent.com/81680367/146009270-38b256f2-5b66-491d-933c-6a92eceb71f9.jpg)
+
 ![giraffe](https://user-images.githubusercontent.com/81680367/145892114-45386e1f-5923-40b0-a6c7-7d330fe1d099.jpg)
 
 **Note**: TinyYoloV2 trained by pascal VOC can not predict above image
