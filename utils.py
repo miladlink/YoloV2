@@ -5,9 +5,6 @@ from torchvision import transforms
 import numpy as np
 from PIL import Image
 
-def gpu2cpu (gpu_matrix):
-    return torch.FloatTensor (gpu_matrix.size ()).copy_ (gpu_matrix)
-
 
 def gpu2cpu_long (gpu_matrix):
     return torch.LongTensor (gpu_matrix.size ()).copy_ (gpu_matrix)
