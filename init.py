@@ -6,7 +6,6 @@ with open ('class_names', 'r') as f:
 
 device = torch.device ('cuda' if torch.cuda.is_available () else 'cpu')
 
-model = load_model ('weights/yolov2.weights', device)
 
 class config:
     def __init__ (self):
