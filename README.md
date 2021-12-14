@@ -1,7 +1,6 @@
 # Pytorch YoloV2 implementation from scratch
 
 
-
 This repository is simple implementation of `YOLOv2 algorithm` for better understanding and use it for more **object detection** usage. This project based on Pytorch. The code of project is so easy and clear.
 
 ## Dataset
@@ -39,10 +38,22 @@ chmod +x weights/get_weights.sh
 weights/get_weights.sh
 ```
 
+### Help
+
+```bash
+python detect.py -h
+```
+
+![image](https://user-images.githubusercontent.com/81680367/145951596-6f878961-1dfd-4327-8fa4-b91e4e589e99.png)
+
 ### Detection
 
 ```bash
-python detect.py -w 'path/to/weights' -ct 'conf_thresh' -nt 'nms_thresh' -p 'path/to/img' 
+python detect.py -w path/to/weights\
+-ct <conf_thresh>\
+-nt <nms_thresh>\
+-p path/to/img\
+-s
 ```
 
 ## Some Result image
