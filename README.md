@@ -44,7 +44,7 @@ weights/get_weights.sh
 python detect.py -h
 ```
 
-![image](https://user-images.githubusercontent.com/81680367/145951596-6f878961-1dfd-4327-8fa4-b91e4e589e99.png)
+![image](https://user-images.githubusercontent.com/81680367/145953199-0addc1c0-d63d-4462-890d-10f6a9a8c8e4.png)
 
 ### Detection
 
@@ -66,5 +66,6 @@ you can see some examples in `yolov2_examples.ipynb`
 
 **Note**: TinyYoloV2 trained by pascal VOC can not predict above image
 
-for more information about TinyYoloV2 implementations you can visit https://github.com/miladlink/TinyYoloV2
+for more information about TinyYoloV2 implementations you can visit
 
+https://github.com/miladlink/TinyYoloV2
