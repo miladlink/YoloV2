@@ -53,7 +53,7 @@ def find_all_boxes (output, device, conf_thresh, num_classes, anchors, num_ancho
     ws, hs = ws.cpu (), hs.cpu ()
  
     if validation:
-        cls_confs = gpu2cpu (cls_confs.view (-1, num_classes))
+        cls_confs = cls_confs.view (-1, num_classes).cpu ()
  
     for b in range (batch):
         boxes = []
