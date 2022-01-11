@@ -1,5 +1,4 @@
-import torch
-from init import config
+import cfg
 from model import load_model
 from visualize import predict
 
@@ -19,7 +18,7 @@ args = parser.parse_args ()
 
 if __name__ == '__main__':
     # load model
-    model = load_model (args.weight_path, config.device)
+    model = load_model (args.weight_path, cfg.DEVICE)
     # if save output wanted
     if args.save:
         save_path = 'weights/output.jpg'
@@ -30,7 +29,7 @@ if __name__ == '__main__':
         args.conf_thresh, 
         args.nms_thresh, 
         args.img_path, 
-        config.class_names, 
-        config.device, 
+        cfg.CLASS_NAMES, 
+        cfg.DEVICE, 
         save_path)
 
